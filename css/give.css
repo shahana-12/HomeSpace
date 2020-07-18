@@ -1,0 +1,100 @@
+body{
+	margin:0;
+}
+.logo{
+	width:100%;
+	margin:auto;
+	margin-top:40px;
+	padding-bottom:20px;
+	border-bottom:1px solid black
+}
+.logo a{
+	font-weight: bold;
+	text-decoration:none;
+	font-size: 30px;
+	margin-left:40%;
+	
+}
+.nav{
+	margin-top:20px;
+	margin-left: 36%;
+}
+.nav ul li{
+	float: left;
+	list-style: none;
+	padding-left:20px;
+	position: relative;
+}
+.nav ul li a{
+	font-weight: bold;
+	color:black;
+	text-transform:capitalize;
+	text-decoration:none;
+}
+.nav ul li a:hover{
+	color:#8F8F8F;
+}
+.nav ul li ul {
+	margin-left: -60px;
+	position: relative;
+	left: -9999px;
+}
+.nav ul li ul li{
+	margin-top: 10px;
+	float: none;
+}
+.nav ul li:hover ul{
+	display: block;
+	left :0px;
+} 
+
+
+.font i {
+	font-size:30px;
+	float:left;
+}
+.back{
+	overflow:hidden;
+	color:#1761A0;
+	text-transform:capitalize;
+	padding:10px 10px;
+	margin-top:-13px;
+}
+
+.form{
+	margin-top:100px;
+}
+
+form h5{
+	color:red;
+	font-size:30px;
+}
+
+
+
+.footer{
+	width:100%;
+	margin-top:150px;
+}
+.icon{
+	overflow:hidden;
+	margin:0% 40%;
+	padding:20px 0px;
+}
+.icon ul{
+	list-style:none;
+}
+.icon ul li{
+	float:left;
+	margin-left:20px;
+	overflow:hidden;
+	font-size:25px;
+	
+}
+.icon ul li a{
+	color:black;
+}
+.link{
+	text-align:center;
+	margin:20px;
+}

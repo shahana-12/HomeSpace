@@ -1,0 +1,167 @@
+body{
+	margin:0;
+}
+.logo{
+	width:100%;
+	margin:auto;
+	margin-top:40px;
+	padding-bottom:20px;
+	border-bottom:1px solid black
+}
+.logo a{
+	font-weight: bold;
+	text-decoration:none;
+	font-size: 30px;
+	margin-left:40%;
+	
+}
+.nav{
+	margin-top:20px;
+	margin-left: 36%;
+	margin-bottom: -50px;
+}
+.nav ul li{
+	float: left;
+	list-style: none;
+	padding-left:20px;
+	position: relative;
+}
+.nav ul li a{
+	font-weight: bold;
+	color:black;
+	text-transform:capitalize;
+	text-decoration:none;
+}
+.nav ul li a:hover{
+	color:#8F8F8F;
+}
+.nav ul li ul {
+	margin-left: -60px;
+	position: relative;
+	left: -9999px;
+}
+.nav ul li ul li{
+	margin-top: 10px;
+	float: none;
+}
+.nav ul li:hover ul{
+	display: block;
+	left :0px;
+} 
+
+
+
+.all-post{
+	text-align:center;
+	margin-top:60px;
+}
+.right-side{
+	width:100%;
+	margin-top:30px;
+	overflow:hidden;
+	text-align:center;
+}
+.right-side a{
+	text-decoration:none;
+	border:1px solid black;
+	padding:10px;
+	color:#8F8F8F;
+}
+.blog{
+	width:100%;
+	overflow:hidden;
+	border:1px solid #8F8F8F;
+	padding:20px 0px;
+	margin-bottom:40px;
+	margin-top:30px;
+}
+.house-img{
+	width:40%;
+	float:left;
+	overflow:hidden;
+}
+.house-img img{
+	width:100%;
+	
+}
+.view-post{
+	width:59%;
+	overflow:hidden;
+}
+.name .img{
+	width:100%;
+}
+.name .img img{
+	width:5%;
+	border:1px solid transparent;
+	border-radius:45%;
+	margin: 0px 15px;
+	float:left;
+	overflow:hidden;
+}
+.name .img h5{
+	overflow:hidden;
+	margin:0px;
+}
+.name .img .min{
+	color:#8F8F8F;
+}
+.home {
+	width:90%;
+	margin-left:20px;
+	margin-top:20px;
+}
+.home a{
+	font-size:35px;
+	text-decoration:none;
+	color:black;
+}
+.home p{
+	width:90%;
+	margin:30px 0px;
+	line-height:25px;
+	color:#8F8F8F;
+}
+.comment{
+	width:80%;
+	margin:auto;
+	color:#8F8F8F;
+}
+.comment .left{
+	float:left;
+	width:70%;
+	border-top:1px solid #8F8F8F;
+}
+.comment .right i{
+	margin-top:15px;
+}
+
+
+
+
+.footer{
+	width:100%;
+	margin-top:150px;
+}
+.icon{
+	overflow:hidden;
+	margin:0% 40%;
+	padding:20px 0px;
+}
+.icon ul{
+	list-style:none;
+}
+.icon ul li{
+	float:left;
+	margin-left:20px;
+	overflow:hidden;
+	font-size:25px;
+	
+}
+.icon ul li a{
+	color:black;
+}
+.link{
+	text-align:center;
+	margin:20px;
+}

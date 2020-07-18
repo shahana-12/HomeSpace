@@ -1,0 +1,244 @@
+body{
+	margin:0;
+}
+.logo{
+	width:100%;
+	margin:auto;
+	margin-top:40px;
+	padding-bottom:20px;
+	border-bottom:1px solid black
+}
+.logo a{
+	font-weight: bold;
+	text-decoration:none;
+	font-size: 30px;
+	margin-left:40%;
+	
+}
+.nav{
+	margin-top:20px;
+	margin-left: 36%;
+}
+.nav ul li{
+	float: left;
+	list-style: none;
+	padding-left:20px;
+	position: relative;
+}
+.nav ul li a{
+	font-weight: bold;
+	color:black;
+	text-transform:capitalize;
+	text-decoration:none;
+}
+.nav ul li a:hover{
+	color:#8F8F8F;
+}
+.nav ul li ul {
+	margin-left: -60px;
+	position: relative;
+	left: -9999px;
+}
+.nav ul li ul li{
+	margin-top: 10px;
+	float: none;
+}
+.nav ul li:hover ul{
+	display: block;
+	left :0px;
+} 
+
+
+
+
+.post{
+	width:100%;
+	margin:50px 30px;
+}
+.post .left-side{
+	width:80%;
+	float:left;
+	overflow:hidden;
+}
+.post .left-side a{
+	text-decoration:none;
+}
+.post .right-side{
+	width:20%;
+	overflow:hidden;
+}
+.post .right-side a{
+	text-decoration:none;
+	border:1px solid black;
+	padding:10px;
+	color:#8F8F8F;
+}
+.text-part{
+	width:85%;
+	margin:auto;
+}
+.blog{
+	width:100%;
+	overflow:hidden;
+	border:1px solid #CCCCCC;
+	padding:50px 20px;
+}
+.name .img{
+	width:100%;
+}
+.name .img img{
+	width:4%;
+	border:1px solid transparent;
+	border-radius:45%;
+	margin: 0px 15px;
+	float:left;
+	overflow:hidden;
+}
+.name .img h5{
+	overflow:hidden;
+	margin:0px;
+}
+.name .img .min{
+	color:#8F8F8F;
+}
+.home h2{
+	font-size:30px;
+	text-decoration:none;
+	color:black;
+	margin:20px 20px;
+}
+.home p{
+	width:90%;
+	margin:40px 20px;
+	line-height:35px;
+	color:#1B1B25;
+}
+.house-img{
+	width:100%;
+	text-align:center;
+	margin-bottom:40px;
+	
+}
+.house-img img{
+	width:80%;
+	
+}
+
+.blog .icon{
+	overflow:hidden;
+	margin:0% 10%;
+	padding:20px 0px;
+	border-top:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+}
+.blog .icon ul{
+	list-style:none;
+}
+.blog .icon ul li{
+	float:left;
+	margin-left:60px;
+	overflow:hidden;
+	font-size:20px;
+	
+}
+.blog .icon ul li a{
+	color:black;
+}
+.comment{
+	width:80%;
+	margin:auto;
+	color:#8F8F8F;
+}
+.comment .left{
+	float:left;
+	width:95%;
+}
+.comment .right i{
+	margin-top:20px;
+}
+.services{
+	width:100%;
+	margin-bottom:50px;
+}
+.services h1{
+	text-align:center;
+}
+.top{
+	margin-bottom:50px;
+	overflow:hidden;
+}
+.property{
+	width:31%;
+	border:1px solid #CCCCCC;
+	float:left;
+	overflow:hidden;
+	margin-left:2%;
+}
+.property img{
+	width:100%;
+	margin-bottom:30px;
+}
+.property h2{
+	margin:0px 30px;
+	padding-bottom:30px;
+	border-bottom:1px solid #CCCCCC;
+}
+.property h2 a{
+	font-size:20px;
+	text-decoration:none;
+	color:black;
+}
+.property h2 a:hover{
+	color:#1464A4;
+}
+.comments{
+	padding:20px 0px;
+}
+.comments h5{
+	float:left;
+	overflow:hidden;
+	margin:0px;
+	margin-left:30px;
+}
+.comments i{
+	margin-left:100px;
+}
+.login-area{
+	width:100%;
+	border:1px solid #CCCCCC;
+	margin-bottom:50px;
+}
+.login-area p{
+	text-align:center;
+	padding:20px 0px;
+}
+.login-area p a{
+	text-decoration:none;
+	color:#1464A4;
+}
+.footer{
+	width:100%;
+	margin-top:150px;
+}
+.icon{
+	overflow:hidden;
+	margin:0% 40%;
+	padding:20px 0px;
+}
+.icon ul{
+	list-style:none;
+}
+.icon ul li{
+	float:left;
+	margin-left:20px;
+	overflow:hidden;
+	font-size:25px;
+	
+}
+.icon ul li a{
+	color:black;
+}
+.link{
+	text-align:center;
+	margin:20px;
+}

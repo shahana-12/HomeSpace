@@ -1,0 +1,131 @@
+body{
+	margin:0;
+}
+.logo{
+	width:100%;
+	margin:auto;
+	margin-top:40px;
+	padding-bottom:20px;
+	border-bottom:1px solid black
+}
+.logo a{
+	font-weight: bold;
+	text-decoration:none;
+	font-size: 30px;
+	margin-left:40%;
+	
+}
+.nav{
+	margin-top:20px;
+	margin-left: 36%;
+}
+.nav ul li{
+	float: left;
+	list-style: none;
+	padding-left:20px;
+	position: relative;
+}
+.nav ul li a{
+	font-weight: bold;
+	color:black;
+	text-transform:capitalize;
+	text-decoration:none;
+}
+.nav ul li a:hover{
+	color:#8F8F8F;
+}
+.nav ul li ul {
+	margin-left: -60px;
+	position: relative;
+	left: -9999px;
+}
+.nav ul li ul li{
+	margin-top: 10px;
+	float: none;
+}
+.nav ul li:hover ul{
+	display: block;
+	left :0px;
+} 
+
+
+
+.services{
+	width:100%;
+	margin-bottom:50px;
+	margin-top:100px;
+}
+.services h1{
+	text-align:center;
+}
+.top{
+	margin-bottom:50px;
+	overflow:hidden;
+	
+}
+.property{
+	width:31%;
+	border:1px solid #CCCCCC;
+	float:left;
+	overflow:hidden;
+	margin-left:2%;
+	margin-bottom:50px;
+}
+.property img{
+	width:100%;
+	margin-bottom:30px;
+}
+.property h2{
+	margin:0px 30px;
+	border-bottom:1px solid #CCCCCC;
+	padding-bottom:30px;
+}
+.property h5{
+	color:#756f6f;
+	margin:10px 30px;
+}
+.property button{
+	margin:20px 100px;
+	padding:10px 35px;
+	background-color:#1464A4;
+	border:none;
+	border-radius:3px;
+}
+.property button a{
+	text-decoration:none;
+	color:white;
+}
+
+
+
+
+
+
+
+
+.footer{
+	width:100%;
+	margin-top:150px;
+}
+.icon{
+	overflow:hidden;
+	margin:0% 40%;
+	padding:20px 0px;
+}
+.icon ul{
+	list-style:none;
+}
+.icon ul li{
+	float:left;
+	margin-left:20px;
+	overflow:hidden;
+	font-size:25px;
+	
+}
+.icon ul li a{
+	color:black;
+}
+.link{
+	text-align:center;
+	margin:20px;
+}
