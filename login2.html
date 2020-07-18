@@ -1,0 +1,64 @@
+<!--?php
+
+$host = "localhost";
+$username = "root";
+$password = "";
+$database = "test";
+
+$connection = mysqli_connect($host, $username, $password, $database); 
+
+if(isset($_POST['login'])){
+	
+	$email = $_POST['email'];
+	$password = $_POST['password'];
+	
+	$select  = mysqli_query($connection, "SELECT * FROM signup WHERE Email = '$email'");
+	$row = mysqli_fetch_assoc($select);
+	if(mysqli_num_rows($select) == 1){
+		
+		if($password == $row['password']){
+			echo "Your are logged in";
+			header('location: post2.php');
+		}else{
+			echo "Incorrect Password";
+		}
+	}else{
+		echo "Email Doesn't exists";
+		
+	}
+
+
+}
+
+?-->
+
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>log in</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/login.css"/>
+</head>
+<body>
+	<div class="font">
+		<a href="blog.html"><i class="fa fa-times-circle"></i></a>
+	</div>
+	<div class="login">
+		<div class="log">
+			<h2>Log In</h2>
+			<h5>New to this site?<a href="sign2.html">Sign Up</a></h5>
+		</div>
+		<form action="" method="POST">
+			<div class="email"></i><input type="email" name="email" placeholder="Email" /></div>
+			<div class="pass"></i><input type="password" name="password" placeholder="Password" /></div>
+			<input type="submit" name="login" value="log in"/>
+		</form>
+	</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

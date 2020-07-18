@@ -1,0 +1,64 @@
+<!--?php
+
+
+$host = "localhost";
+$username = "root";
+$password = "";
+$database = "test";
+
+$connection = mysqli_connect($host, $username, $password, $database);
+
+
+if(isset($_POST['signup'])){
+	
+	$username = $_POST['username'];
+	$email = $_POST['email'];
+	$password = $_POST['password'];
+	
+	$query = mysqli_query($connection, "INSERT INTO signup(username, email, password) VALUES('$username','$email','$password')");
+	
+	if($query){
+		$success = "Successful.";
+		
+		header('location: login4.php');
+	}
+	
+}
+
+
+
+
+
+?-->
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>sign</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/sign.css"/>
+</head>
+<body>
+	<div class="font">
+		<a href="blog.php"><i class="fa fa-times-circle"></i></a>
+	</div>
+	<div class="login">
+		<div class="log">
+			<h2>Sign Up </h2>
+			<h5>Already a member?<a href="login4.php">Log In</a></h5>
+		</div>
+		<form action="" method="POST">
+			<div class="email"></i><input type="text" name="username" placeholder="User Name" /></div>
+			<div class="email"></i><input type="email" name="email" placeholder="Email" /></div>
+			<div class="pass"></i><input type="password" name="password" placeholder="password" /></div>
+			<input type="submit" name="signup" value="Sign Up"/>
+		</form>
+		<p><?php if(isset($success)){ echo $success;}?></p>
+	</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

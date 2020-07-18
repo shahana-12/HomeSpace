@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>House Details</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/details.css" media="all" />
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png"></a>
+			</div>
+		</div>
+	</header>
+	<div class="cotainer">
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="book.html">Services</a></li>
+				<li><a href="blog.html">blog</a></li>
+				<li><a href="#">Location</a>
+					<ul>
+						<li><a href="agrabad.html">Agrabad</a></li>
+						<li><a href="chokbazer.html">Chokbazer</a></li>
+						<li><a href="kazirdawri.html">Kazir Dawri</a></li>
+						<li><a href="lalkhan.html">Lalkhan Bazer</a></li>
+						<li><a href="muradpur.html">Muradpur</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="blog">
+			<div class="account">
+				<img src="images/name.jpg">
+				<h6>Shahana Akter</h6>
+				<ul>
+					<li><a href="#"><i class="fa fa-phone-square">01824966483 / 01753661530</i></a></li>
+					<li><a href="#"><i class="fa fa-envelope-square">Shahana0182492@gmail.com</i></i></a></li>
+				</ul>
+			</div>
+			<div class="details">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
+			<div class="img">
+				<img src="images/pic43.jpg">
+			</div>
+			<div class="house">
+				<div class="left">
+					<p>Beds : 5</p>
+					<p>Area : 1100 sqft</p>
+					<p>Amount : 55000 TK</p>
+				</div>
+				<div class="right">
+					<p>Baths : 3</p>
+					<p>Location : Lalkhan Bazer, Chittagong</p>
+				</div>
+			</div>
+		</div>
+		<div class="some">
+			<button id="demo">More Photos</button>
+		</div>
+		<div id="show" class="top">
+			<div class="property">
+				<img src="images/pic73.jpg" alt="house" />
+				<h4>Bedroom</h4>
+			</div>
+			<div class="property">
+				<img src="images/pic82.jpg" alt="house" />
+				<h4>Kitchen</h4>
+			</div>
+			<div class="property">
+				<img src="images/pic61.jpg" alt="house" />
+				<h4>Bathroom</h4>
+			</div>
+		</div>
+
+		<script>
+			$(document).ready(function(){
+				$("#show").hide();
+				$("#demo").click(function(){
+					$("#show").toggle();
+				});
+			});
+		</script>
+
+
+
+		<div class="footer">
+			<div class="icon">
+				<ul>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+			</div>
+			<div class="link">All rights reserved by HomeSpace &copy; 2020. </div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
